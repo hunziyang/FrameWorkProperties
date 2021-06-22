@@ -11,5 +11,12 @@
 
     <artifactId>yang-module-entity</artifactId>
 
-
+    <dependencies>
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+    </dependencies>
 </project>

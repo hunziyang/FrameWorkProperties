@@ -16,5 +16,9 @@
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
+        <dependency>
+            <groupId>com.yang.module</groupId>
+            <artifactId>yang-module-entity</artifactId>
+        </dependency>
     </dependencies>
 </project>

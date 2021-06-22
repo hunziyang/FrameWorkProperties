@@ -22,14 +22,6 @@
         </dependency>
         <dependency>
             <groupId>com.yang.module</groupId>
-            <artifactId>yang-module-entity</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.yang.module</groupId>
-            <artifactId>yang-module-common</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.yang.module</groupId>
             <artifactId>yang-module-dao</artifactId>
         </dependency>
     </dependencies>
