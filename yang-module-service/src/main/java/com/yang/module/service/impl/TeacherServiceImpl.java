@@ -18,4 +18,13 @@ import org.springframework.stereotype.Service;
 public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> implements TeacherService {
     @Autowired
     private TeacherMapper teacherMapper;
+
+    @Override
+    public boolean insert(Teacher teacher) {
+        int num = teacherMapper.insert(teacher);
+        if (num>0){
+            return true;
+        }
+        return false;
+    }
 }

@@ -1,5 +1,6 @@
 package com.yang.module.entity;
 
+import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
@@ -48,4 +49,12 @@ public class Teacher{
      */
     @TableField(value = "UPDATED_TIME", fill = FieldFill.INSERT_UPDATE)
     private Date updatedTime;
+
+    public static void main(String[] args) {
+        Teacher teacher = new Teacher();
+        teacher.setAge(10);
+        teacher.setName("test");
+        teacher.setSex(true);
+        System.out.println(JSON.toJSONString(teacher));
+    }
 }

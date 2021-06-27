@@ -24,6 +24,11 @@
             <groupId>com.yang.module</groupId>
             <artifactId>yang-module-dao</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.11</version>
+        </dependency>
     </dependencies>
 
 </project>

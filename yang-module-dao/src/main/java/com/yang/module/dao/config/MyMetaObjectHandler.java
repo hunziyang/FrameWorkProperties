@@ -5,6 +5,10 @@ import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
+
+/**
+ * 自动插入相应数据
+ */
 @Component
 public class MyMetaObjectHandler implements MetaObjectHandler {
     @Override
