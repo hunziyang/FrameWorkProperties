@@ -1,4 +1,4 @@
-package com.yang.module.config;
+package com.yang.module.config.exception;
 
 import com.yang.module.common.Result;
 import com.yang.module.common.ResultCode;
